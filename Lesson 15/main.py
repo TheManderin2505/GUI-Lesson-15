@@ -29,9 +29,6 @@ def speak_aloud_translated():#2
     g=2
 
 
-
-
-
 #------
 
 def change_lng_to_E():
@@ -99,7 +96,6 @@ button2.place(x=60, y= 200)
 button3 = Button(root, text = "Speak Aloud",command = speak_aloud_translated)
 button3.place(x= 510,y=200)
 
-switchbtn = Sw
 
 
 root.config(menu=dropdown_menu)
